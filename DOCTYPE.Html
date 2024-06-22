@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Kaspa - Novelist</title>
+    <style>
+        body {
+            font-family: Candara, sans-serif;
+            background-color: #F3E5F5;
+            color: #4A148C;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #7B1FA2;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+        nav {
+            background-color: #6A1B9A;
+            display: flex;
+            justify-content: center;
+            padding: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5em;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #D1C4E9;
+        }
+        .container {
+            padding: 3em 2em;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            border-bottom: 3px solid #6A1B9A;
+            display: inline-block;
+            color: #4A148C;
+        }
+        .about-text, .contact-text {
+            line-height: 1.6;
+            margin-top: 1em;
+            color: #4A148C;
+        }
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .column {
+            flex: 0 1 calc(33% - 1em);
+            box-sizing: border-box;
+            margin-bottom: 2em;
+            background-color: #EDE7F6;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .book-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 1em;
+        }
+        .book-list li {
+            margin: 0.5em 0;
+            color: #6A1B9A;
+        }
+        footer {
+            background-color: #7B1FA2;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Andrew Kaspa</h1>
+        <p>Beginning Novelist</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#books">Books</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="columns">
+                <div class="column">
+                    <h3>Biography</h3>
+                    <p>Hello! My name is Andrew Kaspa, and I am a beginning novelist. My journey into writing started from a young age, inspired by the fantasy worlds I often lost myself in. With a passion for storytelling, I have embarked on creating my own literary worlds that explore the depths of human emotions and the complexities of our existence.</p>
+                </div>
+                <div class="column">
+                    <h3>Education</h3>
+                    <p>I hold a degree in English Literature, which has honed my skills in creative writing and narrative development. My educational background provides a solid foundation for my work as a novelist, allowing me to craft intricate plots and compelling characters.</p>
+                </div>
+                <div class="column">
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>Author of the "Divine Duality" series</li>
+                        <li>Author of the "Crossing Class" series</li>
+                        <li>Featured in several literary magazines</li>
+                        <li>Guest speaker at local writing workshops</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="books">
+            <h2 class="section-title">Books</h2>
+            <div class="columns">
+                <div class="column">
+                    <h3>Divine Duality</h3>
+                    <ul class="book-list">
+                        <li>Book 1: Ridhwandhra</li>
+                        <li>Book 2: Akiromyra (upcoming)</li>
+                        <li>Book 3: Minotaur (upcoming)</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Crossing Class</h3>
+                    <ul class="book-list">
+                        <li>Book 1: Burning Desires(Coming Soon)</li>
+                        <li>Book 2: Forbidden Flames(IN 2025)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <p class="contact-text">If you'd like to get in touch, please feel free to contact me via email or phone.</p>
+            <p class="contact-text"><strong>Email:</strong> <a href="mailto:andrewkaspa570@gmail.com">andrewkaspa570@gmail.com</a></p>
+            <p class="contact-text"><strong>Mobile:</strong> 8817746456</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Andrew Kaspa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
